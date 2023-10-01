@@ -1,0 +1,36 @@
+header {
+    background-color: rgb(142, 142, 237);
+    columns: white;
+    border: 2px solid black;
+    margin: 20px 10px;
+    text-align: center;
+}
+
+h1 {
+    color: darkorange;
+    text-align: center;
+}
+
+/* Only need the below if the div is removed */
+/* button {
+    margin: 0 auto;
+} */
+
+#thequiz {
+    color: blueviolet;
+    /* background-color: burlywood; */
+    text-align: center;
+    /* border-radius: 2px;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px; */
+}
+
+#timer {
+    text-align: right;
+    /* border: 3px solid black;
+    margin: 3px;
+    box-sizing: content-box; */
+}
+
+#result {}
