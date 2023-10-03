@@ -1,36 +1,58 @@
-header {
-    background-color: rgb(142, 142, 237);
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.itBegins {
+    background-color: green;
+    width: 50%;
+    /* max-width: 600px; */
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.itBegins h1 {
+    font-weight: 25px;
+    color: lightblue;
+    font-weight: 200;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+
+.putQHere {
+    padding: 20px 0
+}
+
+.putQHere h2 {
+    font-size: 25px;
+    color: darkblue;
+    font-weight: 550;
+}
+
+.ans1 {}
+
+.ans2 {}
+
+.ans3 {}
+
+.ans4 {}
+
+.button {
+    background: white;
+    color: brown;
+    font-weight: 500;
+    width: 100%;
+    border: 2px solid brown;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: goldenrod;
     columns: white;
-    border: 2px solid black;
-    margin: 20px 10px;
-    text-align: center;
 }
-
-h1 {
-    color: darkorange;
-    text-align: center;
-}
-
-/* Only need the below if the div is removed */
-/* button {
-    margin: 0 auto;
-} */
-
-#thequiz {
-    color: blueviolet;
-    /* background-color: burlywood; */
-    text-align: center;
-    /* border-radius: 2px;
-    border: 2px solid black;
-    margin: 5px;
-    padding: 5px; */
-}
-
-#timer {
-    text-align: right;
-    /* border: 3px solid black;
-    margin: 3px;
-    box-sizing: content-box; */
-}
-
-#result {}
