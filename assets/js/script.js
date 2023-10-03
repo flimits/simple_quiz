@@ -1,12 +1,31 @@
-var getQ = document.querySelector("#questionH2");
-var getAns1 = document.querySelector(".ans1");
-var getAns2 = document.querySelector(".ans2");
-var getAns3 = document.querySelector(".ans3");
-var getAns4 = document.querySelector(".ans4");
-var correctAnswer = document.querySelector("#correctAnsH2");
+var toQuestion = document.getElementById("questionH2");
+var toAnswer = document.getElementById("ansButtons");
+var nextAnswer = document.getElementById("nextButton");
 
 var answerGiven = "";
 correctAnswer.textContent = "something";
 
+var questions = [
+    {
+        question: "what is the color of the sky?",
+        Answers: {
+            1: "blue",
+            2: "grey",
+            3: "red",
+            4: "black"
+        },
+        answeris: '1'
+    },
+    {
+        question: "how many babies can dear have?",
+        Answers: {
+            1: "3",
+            2: "5",
+            3: "2",
+            4: "4"
+        },
+        answeris: '3'
+    }
+];
 
-
+for (var i = 0; i < questions)
